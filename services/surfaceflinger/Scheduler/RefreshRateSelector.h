@@ -53,7 +53,7 @@ public:
     static constexpr Fps kMinSupportedFrameRate = 20_Hz;
 
     // Start range for FrameRateCategory Normal and High.
-    static constexpr Fps kFrameRateCategoryRateHigh = 90_Hz;
+    static constexpr Fps kFrameRateCategoryRateHigh = 120_Hz;
     static constexpr Fps kFrameRateCategoryRateNormal = 60_Hz;
     static constexpr std::pair<Fps, Fps> kFrameRateCategoryRates = {kFrameRateCategoryRateNormal,
                                                                     kFrameRateCategoryRateHigh};
